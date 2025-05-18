@@ -31,7 +31,7 @@ Example:
 Minimap.WaitMoving();
 ```
 *)
-procedure TRSMinimap.WaitMoving(doAntiban: Boolean); overload;
+procedure TRSMinimap.WaitMoving(MinShift: Integer = 500; doAntiban: Boolean); overload;
 var
   timeout, countdown: TCountDown;
   moving: Boolean;
@@ -45,7 +45,7 @@ begin
     if doAntiban then
       Antiban.WalkingTasks();
 
-    moving := Self.IsPlayerMoving();
+    moving := Self.IsPlayerMoving(MinShift);
 
     if moving then
       countdown.Restart();
@@ -53,9 +53,9 @@ begin
   until timeout.IsFinished() or (not moving and countdown.IsFinished()) or not Self.HasFlag();
 end;
 
-procedure TRSMinimap.WaitMoving(); override;
+procedure TRSMinimap.WaitMoving(MinShift: Integer = 500); override;
 begin
-  Self.WaitMoving(True);
+  Self.WaitMoving(MinShift, True);
 end;
 
 

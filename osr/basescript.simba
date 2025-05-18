@@ -144,7 +144,7 @@ begin
   Result += ' Total Profit  : ' + SRL.FormatNumber(Self.TotalProfit, 2);
   Result += ' Profit/Hour   : ' + SRL.FormatNumber(NumberPerHour(Self.TotalProfit, elapsedTime), 2);
 
-  Result += ' ' + Self.Welcome + ' waspscripts.com';
+  //Result += ' ' + Self.Welcome + ' waspscripts.com';
 end;
 
 (*

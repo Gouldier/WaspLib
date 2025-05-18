@@ -635,7 +635,7 @@ begin
 end;
 
 
-
+// Adjust this to adjust the chance of doing different AntiBan tasks!
 procedure TAntiban.SetupTasks();
 begin
   if Self.Tasks <> [] then Exit;
@@ -669,6 +669,8 @@ begin
   Self.OnStartTask := @OnStartAntibanTask;
 end;
 
+
+// Adjust this to adjust the chance of logging out when breaking!
 procedure TAntiban.SetupBreaks();
 begin
   if Self.Breaks <> [] then Exit;

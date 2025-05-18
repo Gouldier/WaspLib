@@ -47,6 +47,12 @@ procedure TRSClient.CheckClientSettings();
 var
   userB: TBox;
 begin
+  // Don't open settings!
+  MM2MS.ZoomLevel := 0;
+  WL.GameSettings.MaxBrightness := True;
+  WL.GameSettings.RoofsHidden := True;
+  WL.GameSettings.XPBarIsSetup := True;
+
   if not MainScreen.HighestPitch then MainScreen.SetHighestPitch();
 
   if not WL.GameSettings.MaxBrightness then
