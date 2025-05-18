@@ -1,3 +1,30 @@
+## [20.2.6](https://github.com/Torwent/WaspLib/compare/v20.2.5...v20.2.6) (2025-05-12)
+
+
+### Bug Fixes
+
+* force bump ([33af6fc](https://github.com/Torwent/WaspLib/commit/33af6fc4e5785d975f62c0c947be3f100c7bc751))
+
+
+
+## [20.2.5](https://github.com/Torwent/WaspLib/compare/v20.2.4...v20.2.5) (2025-05-04)
+
+
+### Bug Fixes
+
+* add Dual macuahuitl as a weapon to the gear handler ([8d5a36a](https://github.com/Torwent/WaspLib/commit/8d5a36a89599791e000746ed4c1176ce6f41f480))
+
+
+
+## [20.2.4](https://github.com/Torwent/WaspLib/compare/v20.2.3...v20.2.4) (2025-05-01)
+
+
+### Bug Fixes
+
+* Made Auth check fast ([1540d71](https://github.com/Torwent/WaspLib/commit/1540d71e43ed250a49596a73cd9f83e2cec4c87f))
+
+
+
 ## [20.2.3](https://github.com/Torwent/WaspLib/compare/v20.2.2...v20.2.3) (2025-04-12)
 
 
@@ -13,33 +40,6 @@
 ### Bug Fixes
 
 * Corrected query error ([4a59e4a](https://github.com/Torwent/WaspLib/commit/4a59e4a9460acaa52737f2c32f6af8f19309dde0))
-
-
-
-## [20.2.1](https://github.com/Torwent/WaspLib/compare/v20.2.0...v20.2.1) (2025-04-12)
-
-
-### Bug Fixes
-
-* handle users with no subscription ([049dca6](https://github.com/Torwent/WaspLib/commit/049dca6cfb9928f72f88a5391020733cae58ec3f))
-
-
-
-# [20.2.0](https://github.com/Torwent/WaspLib/compare/v20.1.12...v20.2.0) (2025-04-10)
-
-
-### Features
-
-* bump ([50ff506](https://github.com/Torwent/WaspLib/commit/50ff50688e6153a67199fbfc65cc3786857f6f40))
-
-
-
-## [20.1.12](https://github.com/Torwent/WaspLib/compare/v20.1.11...v20.1.12) (2025-04-08)
-
-
-### Bug Fixes
-
-* force bump ([94f8e28](https://github.com/Torwent/WaspLib/commit/94f8e28f3826e5bda3a2ea611be898835f5f9e9b))
 
 
 
